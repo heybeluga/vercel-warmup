@@ -1,0 +1,20 @@
+{
+  "name": "@heybeluga/vercel-warmup",
+  "version": "0.0.0",
+  "description": "Warms up the Vercel CDN post-deploy by hitting all your SSG pages",
+  "main": "dist/index.js",
+  "scripts": {
+    "warmup": "node dist/index.js",
+    "lint": "eslint --ext .ts",
+    "fix": "pnpm lint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heybeluga/vercel-warmup.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heybeluga/vercel-warmup/issues"
+  },
+  "homepage": "https://github.com/heybeluga/vercel-warmup#readme"
+}
