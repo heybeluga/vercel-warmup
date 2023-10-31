@@ -1,6 +1,6 @@
 {
   "name": "@heybeluga/vercel-warmup",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Warms up the Vercel CDN post-deploy by hitting all your SSG pages",
   "main": "dist/index.js",
   "scripts": {
