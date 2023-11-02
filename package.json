@@ -4,7 +4,9 @@
   "description": "Warms up the Vercel CDN post-deploy by hitting all your SSG pages",
   "main": "dist/index.js",
   "type": "module",
-  "engines": { "node": ">= 18" },
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "build": "npx tsc",
     "start": "pnpm build && node dist/index.js",
@@ -22,9 +24,11 @@
   },
   "homepage": "https://github.com/heybeluga/vercel-warmup#readme",
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@types/xml2js": "^0.4.13",
     "@typescript-eslint/eslint-plugin": "^6.9.1",
     "@typescript-eslint/parser": "^6.9.1",
     "concurrently": "^8.2.2",
