@@ -1,0 +1,20 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": ["standard-with-typescript", "plugin:prettier/recommended"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    ]
+  }
+}
